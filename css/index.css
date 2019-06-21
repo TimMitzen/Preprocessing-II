@@ -170,22 +170,24 @@ img {
 }
 @media (max-width: 500px) {
   .container {
-    width: 450px;
+    width: 400px;
+    max-width: 400px;
   }
 }
 header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin: 0 auto;
   padding: 20px 0;
-  width: 800px;
   max-width: 800px;
 }
 @media (max-width: 500px) {
   header {
     flex-direction: column;
-    width: 450px;
+    width: 400px;
     align-items: center;
+    width: 80%;
   }
 }
 header nav {
@@ -300,7 +302,7 @@ h1 {
   .bus-section {
     flex-direction: column;
     align-items: center;
-    width: 400px;
+    width: 300px;
     margin-left: 50px;
   }
 }

@@ -1,26 +1,25 @@
 // Navigation Styles here
 header {
-  display: flex;
-  justify-content: space-between;
+  
+  .custom-flex(space-between,center);
   margin: 0 auto;
   padding: 20px 0;
   padding: 20px 0;
-  width: 800px;
+  
   max-width: 800px;
-  @media @mobile {
+  @media @tablet {
+    .custom-flex(center);
     flex-direction: column;
-   
-    width: 450px;
-    align-items: center;
-   
-
+    width: 400px;
+    
+    width: 80%;
   }
 
   nav {
     padding: 10px;
     font-size: 1.3rem;
     margin-left: 63px;
-    @media @mobile {
+    @media @tablet {
       margin-left: 0;
     }
   }
