@@ -1,1 +1,36 @@
 // Navigation Styles here
+header {
+  
+  .custom-flex(space-between,center);
+  margin: 0 auto;
+  padding: 20px 0;
+  padding: 20px 0;
+  
+  max-width: 800px;
+  @media @tablet {
+    .custom-flex(center);
+    flex-direction: column;
+    width: 400px;
+    
+    width: 80%;
+  }
+
+  nav {
+    padding: 10px;
+    font-size: 1.3rem;
+    margin-left: 63px;
+    @media @tablet {
+      margin-left: 0;
+    }
+  }
+}
+a {
+  text-decoration: none;
+  color: @shark;
+  &:not(:last-child) {
+    margin-right: 20px;
+  }
+}
+h1 {
+  margin-bottom: 10px;
+}
